@@ -1,32 +1,40 @@
-# "The Procedure..."
-This is a Statistical analysis work on the whole chess debocle. Is Kramnik right? Let's see.
+# Statistical Analysis of Hikaru Nakamura's Online Games
 
-# Intro
-Former World Chess Champion GM Vladimir Kramnik indirectly accused GM Hikaru Nakamura, currently ranked number 2 of cheating.
+## Introduction
+This project investigates GM Hikaru Nakamura's performance in online chess, specifically addressing the accusation made by former World Chess Champion GM Vladimir Kramnik, who questioned the plausibility of Hikaru's 44.5/45 game result in a blitz series. This analysis seeks to determine whether Kramnik's concerns hold merit by performing a thorough statistical analysis.
 
-He mentioned that Hikaru's performance in a series of online games, where he won 44.5/45 games is unlikely, and should be looked into.
+## Features
+- **Comprehensive Data Retrieval:** Automatically collects PGN files from chess.com for any player.
+- **Data Processing and Cleaning:** Enhances and consolidates PGN files into player-specific datasets.
+- **Data Analysis and Visualization:** Provides detailed summary statistics and visualizations using tools like DataLens.
+- **Stockfish Accuracy Calculation:** Uses Stockfish to calculate move accuracies and determine overall game strength.
+- **Streak and Frequency Analysis:** Analyzes streak lengths and frequencies to identify patterns and anomalies.
 
-This got me interested, so I thought it was worthwhile investigating.
+## Files Overview
+- `app.py`: The orchestrator file that ties together all other scripts and runs the analysis.
+- `data_retriever.py`: Retrieves PGN files for specified players from chess.com.
+- `data_processor.py`: Enhances and concatenates PGN files, creating a comprehensive dataset for each player.
+- `data_manipulator.py`: Processes the data into various CSV files, prepping for deeper analysis.
+- `data_analyzer.py`: Provides summary statistics and visualizations (e.g., box plots) for players' performance.
+- `stockfish_accuracies_calculator.py`: Calculates move accuracies using Stockfish for all games, with checkpointing for long-running analyses.
+- `data_combinator.py`: Combines all player dataframes, categorizing streaks and their frequencies, and prepares data for dashboard uploads.
 
-# Files
-My Procedure...[TLDR]
+## Usage Instructions
+1. Clone the repository: `git clone https://github.com/your-repo-link`
+2. Install required dependencies: `pip install -r requirements.txt`
+3. Run the project:
+   ```bash
+   python app.py
+## How to Contribute
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
 
-0 - app.py is the orchestrator file
+## License
+Specify your project's license (e.g., MIT License) to inform others how they can use your code.
 
-1 - data_retriever.py   # this gets all player files from chess.com
-
-2 - data_processor_py # this enhances the pgn files and concatenates all into one per player
-
-3 - data_manipulator.py # this creates multiple csv's to use in...
-
-4 - data_analyzer.py #...where we can now provide summary statistics for each player and individual box_plots
-
-# Additional Files
-5 - stockfish_accuracies_calculator.py # self explanatory. It goes through the player's games and does its thing for each. It also has checkpoints as this takes a while
-
-6 - data_combinator.py # gets all player's dataframes and combines into one where ID is the name of the player, then Xi for Streaks and Fi for Frequencies of each streak.
-
-This is the file you can use to upload to DataLens and produce your dashboards.
-
-# Questions?
-Hit me up at: evilmathcat@yandex.com
+## Contact Information
+If you have any questions, reach out:
+- Email: evilmathcat@yandex.com
