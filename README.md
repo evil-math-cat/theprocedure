@@ -1,5 +1,5 @@
 # theprocedure
-statistical analysis on the whole chess debocle. Is Kramnik right? Let's see.
+This is a Statistical analysis work on the whole chess debocle. Is Kramnik right? Let's see.
 
 # Intro
 Former World Chess Champion GM Vladimir Kramnik indirectly accused GM Hikaru Nakamura, currently ranked number 2 of cheating.
