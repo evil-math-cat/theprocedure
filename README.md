@@ -33,7 +33,7 @@ This project investigates GM Hikaru Nakamura's performance in online chess, spec
 5. Open a pull request.
 
 ## License
-Specify your project's license (e.g., MIT License) to inform others how they can use your code.
+GPL-3.0
 
 ## Contact Information
 If you have any questions, reach out:
