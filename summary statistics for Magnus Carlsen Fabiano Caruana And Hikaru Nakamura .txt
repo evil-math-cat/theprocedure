@@ -1,0 +1,40 @@
+Summary Statistics for Magnus Carlsen:
+Mean: 6.64
+Median: 5.0
+Mode: 2.0
+P1: 2.0
+P5: 2.0
+Q1: 3.0
+Q2 (Median): 5.0
+Q3: 8.5
+P99: 27.87
+Highest streak found: 50.5
+Frequency of the highest streak: 1
+Plot saved as C:\Users\diogo\Desktop\ML\1-Tools\0-Python scripts\chess_project2\data\3_visualization\MagnusCarlsen_boxplot.jpg
+
+Summary Statistics for Hikaru Nakamura:
+Mean: 8.61
+Median: 5.5
+Mode: 2.0
+P1: 2.0
+P5: 2.0
+Q1: 3.0
+Q2 (Median): 5.5
+Q3: 10.5
+P99: 45.0
+Highest streak found: 113.5
+Frequency of the highest streak: 1
+Plot saved as C:\Users\diogo\Desktop\ML\1-Tools\0-Python scripts\chess_project2\data\3_visualization\HikaruNakamura_boxplot.jpg
+
+Summary Statistics for Fabiano Caruana:
+Mean: 5.48
+Median: 4.0
+Mode: 2.0
+P1: 2.0
+P5: 2.0
+Q1: 2.5
+Q2 (Median): 4.0
+Q3: 6.5
+P99: 18.54
+Highest streak found: 38.5
+Frequency of the highest streak: 1
