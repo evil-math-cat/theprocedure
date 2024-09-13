@@ -6,8 +6,8 @@ Former World Chess Champion GM Vladimir Kramnik indirectly accused GM Hikaru Nak
 He mentioned that Hikaru's performance in a series of online games, where he won 44.5/45 games is unlikely, and should be looked into.
 This got me interested, so I thought it was worthwhile investigating.
 
-My Procedure...[TLDR]
 # Files
+My Procedure...[TLDR]
 app.py is th orchestrator file
 1 - data_retriever.py   # this gets all player files from chess.com
 2 - data_processor_py # this enhances the pgn files and concatenates all into one per player
