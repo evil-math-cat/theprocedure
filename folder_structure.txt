@@ -306,11 +306,6 @@ chess_project2/
             1_magnus_carlsen_chesscom_processed_dataframe_log.txt
             2_hikaru_nakamura_chesscom_processed_dataframe_log.txt
             3_fabiano_caruana_chesscom_processed_dataframe_log.txt
-    directory/
-        2_file
-        3_file
-        4_file_missing_info.csv
-        file
     external/
         stockfish/
             AUTHORS
@@ -397,11 +392,8 @@ chess_project2/
         __init__.py
         tools/
             data_combinator.py
-            export_folder_structure.py
-            pgn_sorter.py
             stockfish_accuracies_calculator.py
             test_file.py
-            tools.py
         __pycache__/
     supporting_documentation/
         0_README.txt
