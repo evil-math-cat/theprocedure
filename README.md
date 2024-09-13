@@ -26,3 +26,7 @@ app.py is th orchestrator file
 
 6 - data_combinator.py # gets all player's dataframes and combines into one where ID is the name of the player, then Xi for Streaks and Fi for Frequencies of each streak.
 
+This is the file you can use to upload to DataLens and produce your dashboards.
+
+#Questions?
+Hit me up at: evilmathcat@yandex.com
