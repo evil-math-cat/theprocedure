@@ -11,7 +11,7 @@ This got me interested, so I thought it was worthwhile investigating.
 # Files
 My Procedure...[TLDR]
 
-app.py is th orchestrator file
+0 - app.py is the orchestrator file
 
 1 - data_retriever.py   # this gets all player files from chess.com
 
